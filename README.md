@@ -1,3 +1,3 @@
-# Angular2-spa
+# Angular-spa
 
-A simple angular2 single page application.
+A simple angular single page application.
