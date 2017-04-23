@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/pages/home/home.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { ContactComponent } from './components/pages/contact/contact.component';
+import { OrderComponent } from './components/order/order.component';
 
 const appRoutes: Routes = [
     {
@@ -13,6 +14,10 @@ const appRoutes: Routes = [
     {
         path: 'about',
         component: AboutComponent
+    },
+    {
+        path: 'order',
+        component: OrderComponent
     },
     {
         path: 'contact',
