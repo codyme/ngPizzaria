@@ -10,7 +10,7 @@ export class NavbarComponent implements OnInit {
   private branding: string;
 
   constructor() {
-    this.branding = 'Angular SPA';
+    this.branding = 'ngPizzaria';
   }
 
   ngOnInit() {
